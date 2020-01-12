@@ -1,0 +1,947 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A32E3A5CED923AC4F93A129 /* Pods_DarkSky_MVVM_DarkSky_MVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5955652F93F4AC2D17F36C32 /* Pods_DarkSky_MVVM_DarkSky_MVVMUITests.framework */; };
+		2922E05F23CA0B790091C56E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2922E05E23CA0B790091C56E /* AppDelegate.swift */; };
+		2922E06123CA0B790091C56E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2922E06023CA0B790091C56E /* SceneDelegate.swift */; };
+		2922E06323CA0B790091C56E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2922E06223CA0B790091C56E /* BaseViewController.swift */; };
+		2922E06623CA0B790091C56E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2922E06423CA0B790091C56E /* Main.storyboard */; };
+		2922E06823CA0B7C0091C56E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2922E06723CA0B7C0091C56E /* Assets.xcassets */; };
+		2922E06B23CA0B7C0091C56E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2922E06923CA0B7C0091C56E /* LaunchScreen.storyboard */; };
+		2922E07623CA0B7C0091C56E /* DarkSky_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2922E07523CA0B7C0091C56E /* DarkSky_MVVMTests.swift */; };
+		2922E08123CA0B7C0091C56E /* DarkSky_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2922E08023CA0B7C0091C56E /* DarkSky_MVVMUITests.swift */; };
+		2987711D23CA111C00FF1D83 /* WeatherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987711B23CA111C00FF1D83 /* WeatherListViewController.swift */; };
+		2987712123CA116C00FF1D83 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987712023CA116C00FF1D83 /* Types.swift */; };
+		2987712423CA16CF00FF1D83 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987712323CA16CF00FF1D83 /* Config.swift */; };
+		2987712623CA1C2600FF1D83 /* WeatherDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987712523CA1C2600FF1D83 /* WeatherDetailModel.swift */; };
+		2987712823CA1FE000FF1D83 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987712723CA1FE000FF1D83 /* Service.swift */; };
+		2987712A23CA2A3000FF1D83 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987712923CA2A3000FF1D83 /* API.swift */; };
+		2987712C23CA2C2600FF1D83 /* WeatherListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987712B23CA2C2600FF1D83 /* WeatherListModel.swift */; };
+		2987712E23CA2CF500FF1D83 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987712D23CA2CF500FF1D83 /* Constants.swift */; };
+		2987713023CA31CB00FF1D83 /* WeatherListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987712F23CA31CB00FF1D83 /* WeatherListView.swift */; };
+		2987713223CA31DF00FF1D83 /* WeatherListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2987713123CA31DF00FF1D83 /* WeatherListView.xib */; };
+		2987713423CA32A500FF1D83 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987713323CA32A500FF1D83 /* UIView+Extension.swift */; };
+		29E70F1F23CA5706006DB01E /* BaseXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E70F1E23CA5706006DB01E /* BaseXibView.swift */; };
+		29E70F2123CA5799006DB01E /* WeatherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E70F2023CA5799006DB01E /* WeatherListViewModel.swift */; };
+		29FCD14723CA7FCA00E510A2 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FCD14623CA7FCA00E510A2 /* BaseViewModel.swift */; };
+		29FCD14923CA84F800E510A2 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FCD14823CA84F800E510A2 /* BaseView.swift */; };
+		8248256B2E5D0CC8B41C4C9E /* Pods_DarkSky_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51D66306E61E7AA0E462A6E /* Pods_DarkSky_MVVM.framework */; };
+		F66BA071A8C49D9303256564 /* Pods_DarkSky_MVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BA497D368DD6B1653F6237 /* Pods_DarkSky_MVVMTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2922E07223CA0B7C0091C56E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2922E05323CA0B790091C56E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2922E05A23CA0B790091C56E;
+			remoteInfo = DarkSky_MVVM;
+		};
+		2922E07D23CA0B7C0091C56E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2922E05323CA0B790091C56E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2922E05A23CA0B790091C56E;
+			remoteInfo = DarkSky_MVVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		239D4BC261FE8C3AA0C62278 /* Pods-DarkSky_MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky_MVVM.debug.xcconfig"; path = "Target Support Files/Pods-DarkSky_MVVM/Pods-DarkSky_MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		2922E05B23CA0B790091C56E /* DarkSky_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkSky_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2922E05E23CA0B790091C56E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2922E06023CA0B790091C56E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2922E06223CA0B790091C56E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2922E06523CA0B790091C56E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2922E06723CA0B7C0091C56E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2922E06A23CA0B7C0091C56E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2922E06C23CA0B7C0091C56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2922E07123CA0B7C0091C56E /* DarkSky_MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkSky_MVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2922E07523CA0B7C0091C56E /* DarkSky_MVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSky_MVVMTests.swift; sourceTree = "<group>"; };
+		2922E07723CA0B7C0091C56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2922E07C23CA0B7C0091C56E /* DarkSky_MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkSky_MVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2922E08023CA0B7C0091C56E /* DarkSky_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSky_MVVMUITests.swift; sourceTree = "<group>"; };
+		2922E08223CA0B7C0091C56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2987711B23CA111C00FF1D83 /* WeatherListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewController.swift; sourceTree = "<group>"; };
+		2987712023CA116C00FF1D83 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		2987712323CA16CF00FF1D83 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		2987712523CA1C2600FF1D83 /* WeatherDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailModel.swift; sourceTree = "<group>"; };
+		2987712723CA1FE000FF1D83 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		2987712923CA2A3000FF1D83 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		2987712B23CA2C2600FF1D83 /* WeatherListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListModel.swift; sourceTree = "<group>"; };
+		2987712D23CA2CF500FF1D83 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2987712F23CA31CB00FF1D83 /* WeatherListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListView.swift; sourceTree = "<group>"; };
+		2987713123CA31DF00FF1D83 /* WeatherListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherListView.xib; sourceTree = "<group>"; };
+		2987713323CA32A500FF1D83 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		29E70F1E23CA5706006DB01E /* BaseXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseXibView.swift; sourceTree = "<group>"; };
+		29E70F2023CA5799006DB01E /* WeatherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewModel.swift; sourceTree = "<group>"; };
+		29FCD14623CA7FCA00E510A2 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		29FCD14823CA84F800E510A2 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		33F509155313488A134D2080 /* Pods-DarkSky_MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky_MVVM.release.xcconfig"; path = "Target Support Files/Pods-DarkSky_MVVM/Pods-DarkSky_MVVM.release.xcconfig"; sourceTree = "<group>"; };
+		348A767AE6CDD8F2FAA1F007 /* Pods-DarkSky_MVVM-DarkSky_MVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky_MVVM-DarkSky_MVVMUITests.release.xcconfig"; path = "Target Support Files/Pods-DarkSky_MVVM-DarkSky_MVVMUITests/Pods-DarkSky_MVVM-DarkSky_MVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		36BC24054DAFE98832AA494D /* Pods-DarkSky_MVVM-DarkSky_MVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky_MVVM-DarkSky_MVVMUITests.debug.xcconfig"; path = "Target Support Files/Pods-DarkSky_MVVM-DarkSky_MVVMUITests/Pods-DarkSky_MVVM-DarkSky_MVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B7E3C5219574FD03AA99BB6 /* Pods-DarkSky_MVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky_MVVMTests.release.xcconfig"; path = "Target Support Files/Pods-DarkSky_MVVMTests/Pods-DarkSky_MVVMTests.release.xcconfig"; sourceTree = "<group>"; };
+		5955652F93F4AC2D17F36C32 /* Pods_DarkSky_MVVM_DarkSky_MVVMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkSky_MVVM_DarkSky_MVVMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BA497D368DD6B1653F6237 /* Pods_DarkSky_MVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkSky_MVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51D66306E61E7AA0E462A6E /* Pods_DarkSky_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkSky_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D01E014253943BACAA68D0 /* Pods-DarkSky_MVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky_MVVMTests.debug.xcconfig"; path = "Target Support Files/Pods-DarkSky_MVVMTests/Pods-DarkSky_MVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2922E05823CA0B790091C56E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8248256B2E5D0CC8B41C4C9E /* Pods_DarkSky_MVVM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2922E06E23CA0B7C0091C56E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66BA071A8C49D9303256564 /* Pods_DarkSky_MVVMTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2922E07923CA0B7C0091C56E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A32E3A5CED923AC4F93A129 /* Pods_DarkSky_MVVM_DarkSky_MVVMUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2922E05223CA0B790091C56E = {
+			isa = PBXGroup;
+			children = (
+				2922E05D23CA0B790091C56E /* DarkSky_MVVM */,
+				2922E07423CA0B7C0091C56E /* DarkSky_MVVMTests */,
+				2922E07F23CA0B7C0091C56E /* DarkSky_MVVMUITests */,
+				2922E05C23CA0B790091C56E /* Products */,
+				8DA50C148A0D8AC5C5FE1F62 /* Pods */,
+				6FB0D3CA9DC83A0124D02E27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2922E05C23CA0B790091C56E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2922E05B23CA0B790091C56E /* DarkSky_MVVM.app */,
+				2922E07123CA0B7C0091C56E /* DarkSky_MVVMTests.xctest */,
+				2922E07C23CA0B7C0091C56E /* DarkSky_MVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2922E05D23CA0B790091C56E /* DarkSky_MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				2987711A23CA0FEF00FF1D83 /* Core */,
+				29E70F1D23CA56BE006DB01E /* Base */,
+				2987711723CA0F5D00FF1D83 /* Network */,
+				2987710B23CA0E7C00FF1D83 /* Features */,
+				2987711823CA0F8200FF1D83 /* Utils */,
+				2922E06423CA0B790091C56E /* Main.storyboard */,
+				2922E06723CA0B7C0091C56E /* Assets.xcassets */,
+				2922E06923CA0B7C0091C56E /* LaunchScreen.storyboard */,
+				2922E06C23CA0B7C0091C56E /* Info.plist */,
+			);
+			path = DarkSky_MVVM;
+			sourceTree = "<group>";
+		};
+		2922E07423CA0B7C0091C56E /* DarkSky_MVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				2922E07523CA0B7C0091C56E /* DarkSky_MVVMTests.swift */,
+				2922E07723CA0B7C0091C56E /* Info.plist */,
+			);
+			path = DarkSky_MVVMTests;
+			sourceTree = "<group>";
+		};
+		2922E07F23CA0B7C0091C56E /* DarkSky_MVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2922E08023CA0B7C0091C56E /* DarkSky_MVVMUITests.swift */,
+				2922E08223CA0B7C0091C56E /* Info.plist */,
+			);
+			path = DarkSky_MVVMUITests;
+			sourceTree = "<group>";
+		};
+		2987710B23CA0E7C00FF1D83 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2987710C23CA0E9000FF1D83 /* WeatherList */,
+				2987710D23CA0EA800FF1D83 /* WeatherDetail */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2987710C23CA0E9000FF1D83 /* WeatherList */ = {
+			isa = PBXGroup;
+			children = (
+				2987710E23CA0EB700FF1D83 /* Views */,
+				2987710F23CA0EC000FF1D83 /* Models */,
+				2987711023CA0EDE00FF1D83 /* ViewModels */,
+				2987711123CA0EEB00FF1D83 /* ViewControllers */,
+			);
+			path = WeatherList;
+			sourceTree = "<group>";
+		};
+		2987710D23CA0EA800FF1D83 /* WeatherDetail */ = {
+			isa = PBXGroup;
+			children = (
+				2987711523CA0F2A00FF1D83 /* Views */,
+				2987711423CA0F2300FF1D83 /* Models */,
+				2987711323CA0F1800FF1D83 /* ViewModels */,
+				2987711223CA0F0F00FF1D83 /* ViewControllers */,
+			);
+			path = WeatherDetail;
+			sourceTree = "<group>";
+		};
+		2987710E23CA0EB700FF1D83 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2987712F23CA31CB00FF1D83 /* WeatherListView.swift */,
+				2987713123CA31DF00FF1D83 /* WeatherListView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2987710F23CA0EC000FF1D83 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2987712B23CA2C2600FF1D83 /* WeatherListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2987711023CA0EDE00FF1D83 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				29E70F2023CA5799006DB01E /* WeatherListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2987711123CA0EEB00FF1D83 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2987711B23CA111C00FF1D83 /* WeatherListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2987711223CA0F0F00FF1D83 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2987711323CA0F1800FF1D83 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2987711423CA0F2300FF1D83 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2987712523CA1C2600FF1D83 /* WeatherDetailModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2987711523CA0F2A00FF1D83 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2987711723CA0F5D00FF1D83 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2987712323CA16CF00FF1D83 /* Config.swift */,
+				2987712723CA1FE000FF1D83 /* Service.swift */,
+				2987712923CA2A3000FF1D83 /* API.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2987711823CA0F8200FF1D83 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2987711F23CA113A00FF1D83 /* Enums */,
+				2987711923CA0F9000FF1D83 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2987711923CA0F9000FF1D83 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2987713323CA32A500FF1D83 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2987711A23CA0FEF00FF1D83 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2922E05E23CA0B790091C56E /* AppDelegate.swift */,
+				2922E06023CA0B790091C56E /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2987711F23CA113A00FF1D83 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				2987712023CA116C00FF1D83 /* Types.swift */,
+				2987712D23CA2CF500FF1D83 /* Constants.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		29E70F1D23CA56BE006DB01E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				29E70F1E23CA5706006DB01E /* BaseXibView.swift */,
+				2922E06223CA0B790091C56E /* BaseViewController.swift */,
+				29FCD14623CA7FCA00E510A2 /* BaseViewModel.swift */,
+				29FCD14823CA84F800E510A2 /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6FB0D3CA9DC83A0124D02E27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B51D66306E61E7AA0E462A6E /* Pods_DarkSky_MVVM.framework */,
+				5955652F93F4AC2D17F36C32 /* Pods_DarkSky_MVVM_DarkSky_MVVMUITests.framework */,
+				A2BA497D368DD6B1653F6237 /* Pods_DarkSky_MVVMTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DA50C148A0D8AC5C5FE1F62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				239D4BC261FE8C3AA0C62278 /* Pods-DarkSky_MVVM.debug.xcconfig */,
+				33F509155313488A134D2080 /* Pods-DarkSky_MVVM.release.xcconfig */,
+				36BC24054DAFE98832AA494D /* Pods-DarkSky_MVVM-DarkSky_MVVMUITests.debug.xcconfig */,
+				348A767AE6CDD8F2FAA1F007 /* Pods-DarkSky_MVVM-DarkSky_MVVMUITests.release.xcconfig */,
+				F5D01E014253943BACAA68D0 /* Pods-DarkSky_MVVMTests.debug.xcconfig */,
+				4B7E3C5219574FD03AA99BB6 /* Pods-DarkSky_MVVMTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2922E05A23CA0B790091C56E /* DarkSky_MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2922E08523CA0B7C0091C56E /* Build configuration list for PBXNativeTarget "DarkSky_MVVM" */;
+			buildPhases = (
+				E92ABF184B91BBB9FFB3F5A0 /* [CP] Check Pods Manifest.lock */,
+				2922E05723CA0B790091C56E /* Sources */,
+				2922E05823CA0B790091C56E /* Frameworks */,
+				2922E05923CA0B790091C56E /* Resources */,
+				5FD9A715B634F82762C37B55 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkSky_MVVM;
+			productName = DarkSky_MVVM;
+			productReference = 2922E05B23CA0B790091C56E /* DarkSky_MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2922E07023CA0B7C0091C56E /* DarkSky_MVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2922E08823CA0B7C0091C56E /* Build configuration list for PBXNativeTarget "DarkSky_MVVMTests" */;
+			buildPhases = (
+				EDB7AD01947160755641E52D /* [CP] Check Pods Manifest.lock */,
+				2922E06D23CA0B7C0091C56E /* Sources */,
+				2922E06E23CA0B7C0091C56E /* Frameworks */,
+				2922E06F23CA0B7C0091C56E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2922E07323CA0B7C0091C56E /* PBXTargetDependency */,
+			);
+			name = DarkSky_MVVMTests;
+			productName = DarkSky_MVVMTests;
+			productReference = 2922E07123CA0B7C0091C56E /* DarkSky_MVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2922E07B23CA0B7C0091C56E /* DarkSky_MVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2922E08B23CA0B7C0091C56E /* Build configuration list for PBXNativeTarget "DarkSky_MVVMUITests" */;
+			buildPhases = (
+				2A5DF13A67FD6EF1FC30D898 /* [CP] Check Pods Manifest.lock */,
+				2922E07823CA0B7C0091C56E /* Sources */,
+				2922E07923CA0B7C0091C56E /* Frameworks */,
+				2922E07A23CA0B7C0091C56E /* Resources */,
+				96A1D61BE82C8F45661807C8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2922E07E23CA0B7C0091C56E /* PBXTargetDependency */,
+			);
+			name = DarkSky_MVVMUITests;
+			productName = DarkSky_MVVMUITests;
+			productReference = 2922E07C23CA0B7C0091C56E /* DarkSky_MVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2922E05323CA0B790091C56E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Gülenay Gül";
+				TargetAttributes = {
+					2922E05A23CA0B790091C56E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					2922E07023CA0B7C0091C56E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 2922E05A23CA0B790091C56E;
+					};
+					2922E07B23CA0B7C0091C56E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 2922E05A23CA0B790091C56E;
+					};
+				};
+			};
+			buildConfigurationList = 2922E05623CA0B790091C56E /* Build configuration list for PBXProject "DarkSky_MVVM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2922E05223CA0B790091C56E;
+			productRefGroup = 2922E05C23CA0B790091C56E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2922E05A23CA0B790091C56E /* DarkSky_MVVM */,
+				2922E07023CA0B7C0091C56E /* DarkSky_MVVMTests */,
+				2922E07B23CA0B7C0091C56E /* DarkSky_MVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2922E05923CA0B790091C56E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2922E06B23CA0B7C0091C56E /* LaunchScreen.storyboard in Resources */,
+				2922E06823CA0B7C0091C56E /* Assets.xcassets in Resources */,
+				2922E06623CA0B790091C56E /* Main.storyboard in Resources */,
+				2987713223CA31DF00FF1D83 /* WeatherListView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2922E06F23CA0B7C0091C56E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2922E07A23CA0B7C0091C56E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A5DF13A67FD6EF1FC30D898 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DarkSky_MVVM-DarkSky_MVVMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FD9A715B634F82762C37B55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarkSky_MVVM/Pods-DarkSky_MVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarkSky_MVVM/Pods-DarkSky_MVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DarkSky_MVVM/Pods-DarkSky_MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96A1D61BE82C8F45661807C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarkSky_MVVM-DarkSky_MVVMUITests/Pods-DarkSky_MVVM-DarkSky_MVVMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarkSky_MVVM-DarkSky_MVVMUITests/Pods-DarkSky_MVVM-DarkSky_MVVMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DarkSky_MVVM-DarkSky_MVVMUITests/Pods-DarkSky_MVVM-DarkSky_MVVMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E92ABF184B91BBB9FFB3F5A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DarkSky_MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDB7AD01947160755641E52D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DarkSky_MVVMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2922E05723CA0B790091C56E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2922E06323CA0B790091C56E /* BaseViewController.swift in Sources */,
+				2987713423CA32A500FF1D83 /* UIView+Extension.swift in Sources */,
+				2987712E23CA2CF500FF1D83 /* Constants.swift in Sources */,
+				29FCD14923CA84F800E510A2 /* BaseView.swift in Sources */,
+				2987712823CA1FE000FF1D83 /* Service.swift in Sources */,
+				2987713023CA31CB00FF1D83 /* WeatherListView.swift in Sources */,
+				29FCD14723CA7FCA00E510A2 /* BaseViewModel.swift in Sources */,
+				29E70F1F23CA5706006DB01E /* BaseXibView.swift in Sources */,
+				2987712C23CA2C2600FF1D83 /* WeatherListModel.swift in Sources */,
+				2987711D23CA111C00FF1D83 /* WeatherListViewController.swift in Sources */,
+				2922E05F23CA0B790091C56E /* AppDelegate.swift in Sources */,
+				29E70F2123CA5799006DB01E /* WeatherListViewModel.swift in Sources */,
+				2987712123CA116C00FF1D83 /* Types.swift in Sources */,
+				2922E06123CA0B790091C56E /* SceneDelegate.swift in Sources */,
+				2987712623CA1C2600FF1D83 /* WeatherDetailModel.swift in Sources */,
+				2987712A23CA2A3000FF1D83 /* API.swift in Sources */,
+				2987712423CA16CF00FF1D83 /* Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2922E06D23CA0B7C0091C56E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2922E07623CA0B7C0091C56E /* DarkSky_MVVMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2922E07823CA0B7C0091C56E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2922E08123CA0B7C0091C56E /* DarkSky_MVVMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2922E07323CA0B7C0091C56E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2922E05A23CA0B790091C56E /* DarkSky_MVVM */;
+			targetProxy = 2922E07223CA0B7C0091C56E /* PBXContainerItemProxy */;
+		};
+		2922E07E23CA0B7C0091C56E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2922E05A23CA0B790091C56E /* DarkSky_MVVM */;
+			targetProxy = 2922E07D23CA0B7C0091C56E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2922E06423CA0B790091C56E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2922E06523CA0B790091C56E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2922E06923CA0B7C0091C56E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2922E06A23CA0B7C0091C56E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2922E08323CA0B7C0091C56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2922E08423CA0B7C0091C56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2922E08623CA0B7C0091C56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239D4BC261FE8C3AA0C62278 /* Pods-DarkSky_MVVM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D94P2T6X26;
+				INFOPLIST_FILE = DarkSky_MVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glnygl.DarkSky-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2922E08723CA0B7C0091C56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F509155313488A134D2080 /* Pods-DarkSky_MVVM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D94P2T6X26;
+				INFOPLIST_FILE = DarkSky_MVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glnygl.DarkSky-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2922E08923CA0B7C0091C56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D01E014253943BACAA68D0 /* Pods-DarkSky_MVVMTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D94P2T6X26;
+				INFOPLIST_FILE = DarkSky_MVVMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glnygl.DarkSky-MVVMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkSky_MVVM.app/DarkSky_MVVM";
+			};
+			name = Debug;
+		};
+		2922E08A23CA0B7C0091C56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7E3C5219574FD03AA99BB6 /* Pods-DarkSky_MVVMTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D94P2T6X26;
+				INFOPLIST_FILE = DarkSky_MVVMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glnygl.DarkSky-MVVMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkSky_MVVM.app/DarkSky_MVVM";
+			};
+			name = Release;
+		};
+		2922E08C23CA0B7C0091C56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36BC24054DAFE98832AA494D /* Pods-DarkSky_MVVM-DarkSky_MVVMUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D94P2T6X26;
+				INFOPLIST_FILE = DarkSky_MVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glnygl.DarkSky-MVVMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DarkSky_MVVM;
+			};
+			name = Debug;
+		};
+		2922E08D23CA0B7C0091C56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 348A767AE6CDD8F2FAA1F007 /* Pods-DarkSky_MVVM-DarkSky_MVVMUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D94P2T6X26;
+				INFOPLIST_FILE = DarkSky_MVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glnygl.DarkSky-MVVMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DarkSky_MVVM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2922E05623CA0B790091C56E /* Build configuration list for PBXProject "DarkSky_MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2922E08323CA0B7C0091C56E /* Debug */,
+				2922E08423CA0B7C0091C56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2922E08523CA0B7C0091C56E /* Build configuration list for PBXNativeTarget "DarkSky_MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2922E08623CA0B7C0091C56E /* Debug */,
+				2922E08723CA0B7C0091C56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2922E08823CA0B7C0091C56E /* Build configuration list for PBXNativeTarget "DarkSky_MVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2922E08923CA0B7C0091C56E /* Debug */,
+				2922E08A23CA0B7C0091C56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2922E08B23CA0B7C0091C56E /* Build configuration list for PBXNativeTarget "DarkSky_MVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2922E08C23CA0B7C0091C56E /* Debug */,
+				2922E08D23CA0B7C0091C56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2922E05323CA0B790091C56E /* Project object */;
+}
