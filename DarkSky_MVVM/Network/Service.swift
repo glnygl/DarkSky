@@ -22,6 +22,17 @@ class Service{
         }
     }
     
+    static func AlamofireRequestUrl(url: URL, success:@escaping (Data) -> Void, failure: @escaping (String) -> Void){
+        Alamofire.request(url).responseJSON { (response) in
+            if response.result.isFailure {
+                failure("error")
+            } else {
+                guard let data = response.data else { return failure("error") }
+                success(data)
+            }
+        }
+    }
+    
     static func GetURLRequest(requestType: APIRouter) -> URLRequest?{
         do {
             return try requestType.asURLRequest()

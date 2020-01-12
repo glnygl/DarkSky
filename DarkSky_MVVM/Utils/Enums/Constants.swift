@@ -20,30 +20,5 @@ enum IconType: String{
     case Cloudy = "cloudy"
     case PartlyCloudyDay = "partly-cloudy-day"
     case PartlyCloudyNight = "partly-cloudy-night"
-    
-    var image : UIImage? {
-        switch self {
-        case .ClearDay:
-            return nil
-        case .ClearNight:
-            return nil
-        case .Rain:
-            return nil
-        case .Snow:
-            return nil
-        case .Sleet:
-            return nil
-        case .Wind:
-            return nil
-        case .Fog:
-            return nil
-        case .Cloudy:
-            return nil
-        case .PartlyCloudyDay:
-            return nil
-        case .PartlyCloudyNight:
-            return nil
-        }
-    }
 }
 

@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Location{
+struct LocationModel{
     var lat: Int
     var long: Int
 }

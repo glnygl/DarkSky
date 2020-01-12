@@ -10,13 +10,14 @@ import Foundation
 import Alamofire
 
 struct Keys {
-    static let baseURL = "https://api.darksky.net"
+    static let weatherURL = "https://api.darksky.net"
+    static let countryURL = "https://restcountries.eu/rest/v2/all"
     static let key = "/14d662c5816cb1c9b35d98c8fa079eb4"
 }
 
 enum APIRouter: URLRequestConvertible {
     
-    case Weather(location: Location)
+    case Weather(location: LocationModel)
     
     private var method: HTTPMethod {
         switch self {
@@ -48,7 +49,7 @@ enum APIRouter: URLRequestConvertible {
         
     
     func asURLRequest() throws -> URLRequest {
-        let url = try Keys.baseURL.asURL()
+        let url = try Keys.weatherURL.asURL()
         
         var urlRequest = URLRequest(url: url.appendingPathComponent(path + Keys.key + (query ?? "")))
 

@@ -11,7 +11,7 @@ import Alamofire
 
 class API{
     
-    static func GetWeather(location: Location, success:@escaping (WeatherModel) -> Void, failure: @escaping (String) -> Void){
+    static func GetWeather(location: LocationModel, success:@escaping (WeatherModel) -> Void, failure: @escaping (String) -> Void){
         if let urlRequest = Service.GetURLRequest(requestType: .Weather(location: location)){
             print(urlRequest)
             Service.AlamofireRequest(urlRequest: urlRequest, success: { (data) in

@@ -29,6 +29,14 @@
 		2987713423CA32A500FF1D83 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987713323CA32A500FF1D83 /* UIView+Extension.swift */; };
 		29E70F1F23CA5706006DB01E /* BaseXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E70F1E23CA5706006DB01E /* BaseXibView.swift */; };
 		29E70F2123CA5799006DB01E /* WeatherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E70F2023CA5799006DB01E /* WeatherListViewModel.swift */; };
+		29E905E123CB49A8007B3701 /* CountryListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E905E023CB49A8007B3701 /* CountryListModel.swift */; };
+		29E905E623CB4C67007B3701 /* CountryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E905E523CB4C67007B3701 /* CountryListView.swift */; };
+		29E905E823CB4C80007B3701 /* CountryListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E905E723CB4C80007B3701 /* CountryListView.xib */; };
+		29E905EA23CB4C9B007B3701 /* CountryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E905E923CB4C9B007B3701 /* CountryListViewModel.swift */; };
+		29E905ED23CB4CB6007B3701 /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E905EB23CB4CB6007B3701 /* CountryListViewController.swift */; };
+		29E905EE23CB4CB6007B3701 /* CountryListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E905EC23CB4CB6007B3701 /* CountryListViewController.xib */; };
+		29E905F023CB4E2F007B3701 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E905EF23CB4E2F007B3701 /* Colors.xcassets */; };
+		29E905F223CB58E8007B3701 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E905F123CB58E8007B3701 /* String+Extension.swift */; };
 		29FCD14723CA7FCA00E510A2 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FCD14623CA7FCA00E510A2 /* BaseViewModel.swift */; };
 		29FCD14923CA84F800E510A2 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FCD14823CA84F800E510A2 /* BaseView.swift */; };
 		8248256B2E5D0CC8B41C4C9E /* Pods_DarkSky_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51D66306E61E7AA0E462A6E /* Pods_DarkSky_MVVM.framework */; };
@@ -54,7 +62,7 @@
 
 /* Begin PBXFileReference section */
 		239D4BC261FE8C3AA0C62278 /* Pods-DarkSky_MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky_MVVM.debug.xcconfig"; path = "Target Support Files/Pods-DarkSky_MVVM/Pods-DarkSky_MVVM.debug.xcconfig"; sourceTree = "<group>"; };
-		2922E05B23CA0B790091C56E /* DarkSky_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkSky_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2922E05B23CA0B790091C56E /* DarkSky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkSky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2922E05E23CA0B790091C56E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2922E06023CA0B790091C56E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2922E06223CA0B790091C56E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +89,14 @@
 		2987713323CA32A500FF1D83 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		29E70F1E23CA5706006DB01E /* BaseXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseXibView.swift; sourceTree = "<group>"; };
 		29E70F2023CA5799006DB01E /* WeatherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewModel.swift; sourceTree = "<group>"; };
+		29E905E023CB49A8007B3701 /* CountryListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListModel.swift; sourceTree = "<group>"; };
+		29E905E523CB4C67007B3701 /* CountryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CountryListView.swift; path = DarkSky_MVVM/Features/CountryList/Views/CountryListView.swift; sourceTree = SOURCE_ROOT; };
+		29E905E723CB4C80007B3701 /* CountryListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryListView.xib; sourceTree = "<group>"; };
+		29E905E923CB4C9B007B3701 /* CountryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewModel.swift; sourceTree = "<group>"; };
+		29E905EB23CB4CB6007B3701 /* CountryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewController.swift; sourceTree = "<group>"; };
+		29E905EC23CB4CB6007B3701 /* CountryListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryListViewController.xib; sourceTree = "<group>"; };
+		29E905EF23CB4E2F007B3701 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		29E905F123CB58E8007B3701 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		29FCD14623CA7FCA00E510A2 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		29FCD14823CA84F800E510A2 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		33F509155313488A134D2080 /* Pods-DarkSky_MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky_MVVM.release.xcconfig"; path = "Target Support Files/Pods-DarkSky_MVVM/Pods-DarkSky_MVVM.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,7 +152,7 @@
 		2922E05C23CA0B790091C56E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2922E05B23CA0B790091C56E /* DarkSky_MVVM.app */,
+				2922E05B23CA0B790091C56E /* DarkSky.app */,
 				2922E07123CA0B7C0091C56E /* DarkSky_MVVMTests.xctest */,
 				2922E07C23CA0B7C0091C56E /* DarkSky_MVVMUITests.xctest */,
 			);
@@ -153,6 +169,7 @@
 				2987711823CA0F8200FF1D83 /* Utils */,
 				2922E06423CA0B790091C56E /* Main.storyboard */,
 				2922E06723CA0B7C0091C56E /* Assets.xcassets */,
+				29E905EF23CB4E2F007B3701 /* Colors.xcassets */,
 				2922E06923CA0B7C0091C56E /* LaunchScreen.storyboard */,
 				2922E06C23CA0B7C0091C56E /* Info.plist */,
 			);
@@ -180,6 +197,7 @@
 		2987710B23CA0E7C00FF1D83 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				29E905DE23CB4985007B3701 /* CountryList */,
 				2987710C23CA0E9000FF1D83 /* WeatherList */,
 				2987710D23CA0EA800FF1D83 /* WeatherDetail */,
 			);
@@ -293,6 +311,7 @@
 			isa = PBXGroup;
 			children = (
 				2987713323CA32A500FF1D83 /* UIView+Extension.swift */,
+				29E905F123CB58E8007B3701 /* String+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -324,6 +343,51 @@
 				29FCD14823CA84F800E510A2 /* BaseView.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		29E905DE23CB4985007B3701 /* CountryList */ = {
+			isa = PBXGroup;
+			children = (
+				29E905E223CB4BEB007B3701 /* Views */,
+				29E905DF23CB4992007B3701 /* Models */,
+				29E905E323CB4C3A007B3701 /* ViewModels */,
+				29E905E423CB4C41007B3701 /* ViewControllers */,
+			);
+			path = CountryList;
+			sourceTree = "<group>";
+		};
+		29E905DF23CB4992007B3701 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				29E905E023CB49A8007B3701 /* CountryListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		29E905E223CB4BEB007B3701 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29E905E523CB4C67007B3701 /* CountryListView.swift */,
+				29E905E723CB4C80007B3701 /* CountryListView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		29E905E323CB4C3A007B3701 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				29E905E923CB4C9B007B3701 /* CountryListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		29E905E423CB4C41007B3701 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				29E905EB23CB4CB6007B3701 /* CountryListViewController.swift */,
+				29E905EC23CB4CB6007B3701 /* CountryListViewController.xib */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		6FB0D3CA9DC83A0124D02E27 /* Frameworks */ = {
@@ -368,7 +432,7 @@
 			);
 			name = DarkSky_MVVM;
 			productName = DarkSky_MVVM;
-			productReference = 2922E05B23CA0B790091C56E /* DarkSky_MVVM.app */;
+			productReference = 2922E05B23CA0B790091C56E /* DarkSky.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2922E07023CA0B7C0091C56E /* DarkSky_MVVMTests */ = {
@@ -459,9 +523,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2922E06B23CA0B7C0091C56E /* LaunchScreen.storyboard in Resources */,
+				29E905EE23CB4CB6007B3701 /* CountryListViewController.xib in Resources */,
+				29E905E823CB4C80007B3701 /* CountryListView.xib in Resources */,
 				2922E06823CA0B7C0091C56E /* Assets.xcassets in Resources */,
 				2922E06623CA0B790091C56E /* Main.storyboard in Resources */,
 				2987713223CA31DF00FF1D83 /* WeatherListView.xib in Resources */,
+				29E905F023CB4E2F007B3701 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,11 +667,16 @@
 				2987712C23CA2C2600FF1D83 /* WeatherListModel.swift in Sources */,
 				2987711D23CA111C00FF1D83 /* WeatherListViewController.swift in Sources */,
 				2922E05F23CA0B790091C56E /* AppDelegate.swift in Sources */,
+				29E905E623CB4C67007B3701 /* CountryListView.swift in Sources */,
+				29E905F223CB58E8007B3701 /* String+Extension.swift in Sources */,
 				29E70F2123CA5799006DB01E /* WeatherListViewModel.swift in Sources */,
+				29E905EA23CB4C9B007B3701 /* CountryListViewModel.swift in Sources */,
 				2987712123CA116C00FF1D83 /* Types.swift in Sources */,
 				2922E06123CA0B790091C56E /* SceneDelegate.swift in Sources */,
+				29E905ED23CB4CB6007B3701 /* CountryListViewController.swift in Sources */,
 				2987712623CA1C2600FF1D83 /* WeatherDetailModel.swift in Sources */,
 				2987712A23CA2A3000FF1D83 /* API.swift in Sources */,
+				29E905E123CB49A8007B3701 /* CountryListModel.swift in Sources */,
 				2987712423CA16CF00FF1D83 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -788,7 +860,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.glnygl.DarkSky-MVVM";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DarkSky;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -808,7 +880,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.glnygl.DarkSky-MVVM";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DarkSky;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
