@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WeatherListView" customModule="DarkSky" customModuleProvider="target">
             <connections>
+                <outlet property="emptyLabel" destination="hnv-WP-vDl" id="l2E-NG-g4q"/>
                 <outlet property="weatherListTableView" destination="m5M-5p-GCA" id="Qaz-J9-TO4"/>
             </connections>
         </placeholder>
@@ -88,16 +89,26 @@
                     <rect key="frame" x="10" y="98" width="394" height="798"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To chose city click add button" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnv-WP-vDl">
+                    <rect key="frame" x="20" y="439.5" width="374" height="27.5"/>
+                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                    <color key="textColor" name="White"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" name="BackgroundBlue"/>
             <constraints>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="V4Q-yJ-Z0m" secondAttribute="trailing" id="0b1-eP-bmv"/>
                 <constraint firstItem="m5M-5p-GCA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="1TZ-WF-Grf"/>
+                <constraint firstItem="hnv-WP-vDl" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="7IX-bx-edL"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="m5M-5p-GCA" secondAttribute="trailing" constant="10" id="Ex6-J1-hA0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="hnv-WP-vDl" secondAttribute="trailing" constant="20" id="Pcd-Ld-tAI"/>
+                <constraint firstItem="hnv-WP-vDl" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="Pco-Xo-D5K"/>
                 <constraint firstItem="m5M-5p-GCA" firstAttribute="top" secondItem="V4Q-yJ-Z0m" secondAttribute="bottom" constant="10" id="YlI-yW-OrD"/>
                 <constraint firstItem="V4Q-yJ-Z0m" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="4" id="njN-as-Mf7"/>
                 <constraint firstItem="V4Q-yJ-Z0m" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="oVb-9K-uBJ"/>
                 <constraint firstAttribute="bottom" secondItem="m5M-5p-GCA" secondAttribute="bottom" id="ruY-at-yFo"/>
+                <constraint firstItem="hnv-WP-vDl" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="sxW-5S-5F2"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <point key="canvasLocation" x="137.68115942028987" y="107.8125"/>

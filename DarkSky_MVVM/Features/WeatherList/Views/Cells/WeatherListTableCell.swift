@@ -40,7 +40,7 @@ class WeatherListTableCell: UITableViewCell {
         }
         
         if let tempature = model.currently?.temperature{
-          temperatureLabel.text = "\(tempature) °C"
+          temperatureLabel.text = "\(Int(tempature)) °C"
         }else{
           temperatureLabel.text = "~°C"
         }

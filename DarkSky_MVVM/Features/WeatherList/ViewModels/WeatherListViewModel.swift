@@ -39,8 +39,7 @@ class WeatherListViewModel: BaseViewModelProtocol{
             self.weatherData.accept([model])
             controller.dismiss(animated: true, completion: nil)
         }) { (error) in
-            print("error")
-            controller.dismiss(animated: true, completion: nil)
+            controller.showErrorAlert()
         }
     }
     

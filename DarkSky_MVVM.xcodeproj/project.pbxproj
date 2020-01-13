@@ -27,6 +27,8 @@
 		2987713023CA31CB00FF1D83 /* WeatherListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987712F23CA31CB00FF1D83 /* WeatherListView.swift */; };
 		2987713223CA31DF00FF1D83 /* WeatherListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2987713123CA31DF00FF1D83 /* WeatherListView.xib */; };
 		2987713423CA32A500FF1D83 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987713323CA32A500FF1D83 /* UIView+Extension.swift */; };
+		2987E62E23CD09A400171E20 /* WeatherDayListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987E62C23CD09A400171E20 /* WeatherDayListTableCell.swift */; };
+		2987E62F23CD09A400171E20 /* WeatherDayListTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2987E62D23CD09A400171E20 /* WeatherDayListTableCell.xib */; };
 		29E70F1F23CA5706006DB01E /* BaseXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E70F1E23CA5706006DB01E /* BaseXibView.swift */; };
 		29E70F2123CA5799006DB01E /* WeatherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E70F2023CA5799006DB01E /* WeatherListViewModel.swift */; };
 		29E905E123CB49A8007B3701 /* CountryListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E905E023CB49A8007B3701 /* CountryListModel.swift */; };
@@ -94,6 +96,8 @@
 		2987712F23CA31CB00FF1D83 /* WeatherListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListView.swift; sourceTree = "<group>"; };
 		2987713123CA31DF00FF1D83 /* WeatherListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherListView.xib; sourceTree = "<group>"; };
 		2987713323CA32A500FF1D83 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		2987E62C23CD09A400171E20 /* WeatherDayListTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDayListTableCell.swift; sourceTree = "<group>"; };
+		2987E62D23CD09A400171E20 /* WeatherDayListTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherDayListTableCell.xib; sourceTree = "<group>"; };
 		29E70F1E23CA5706006DB01E /* BaseXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseXibView.swift; sourceTree = "<group>"; };
 		29E70F2023CA5799006DB01E /* WeatherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewModel.swift; sourceTree = "<group>"; };
 		29E905E023CB49A8007B3701 /* CountryListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListModel.swift; sourceTree = "<group>"; };
@@ -414,6 +418,8 @@
 			children = (
 				29E905F623CB6DCA007B3701 /* WeatherListTableCell.swift */,
 				29E905F723CB6DCA007B3701 /* WeatherListTableCell.xib */,
+				2987E62C23CD09A400171E20 /* WeatherDayListTableCell.swift */,
+				2987E62D23CD09A400171E20 /* WeatherDayListTableCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -563,6 +569,7 @@
 				29E905EE23CB4CB6007B3701 /* CountryListViewController.xib in Resources */,
 				29E905E823CB4C80007B3701 /* CountryListView.xib in Resources */,
 				2922E06823CA0B7C0091C56E /* Assets.xcassets in Resources */,
+				2987E62F23CD09A400171E20 /* WeatherDayListTableCell.xib in Resources */,
 				2922E06623CA0B790091C56E /* Main.storyboard in Resources */,
 				29E9060123CBA465007B3701 /* CountryListTableCell.xib in Resources */,
 				29E905F923CB6DCA007B3701 /* WeatherListTableCell.xib in Resources */,
@@ -697,6 +704,7 @@
 			files = (
 				2922E06323CA0B790091C56E /* BaseViewController.swift in Sources */,
 				2987713423CA32A500FF1D83 /* UIView+Extension.swift in Sources */,
+				2987E62E23CD09A400171E20 /* WeatherDayListTableCell.swift in Sources */,
 				2987712E23CA2CF500FF1D83 /* Constants.swift in Sources */,
 				29E905FB23CB7510007B3701 /* UITableView+Extensions.swift in Sources */,
 				29FCD14923CA84F800E510A2 /* BaseViewProtocol.swift in Sources */,

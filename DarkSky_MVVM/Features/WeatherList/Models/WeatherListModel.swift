@@ -24,6 +24,7 @@ struct Weather: Codable{
     var summary: String?
     var icon: String?
     var temperature: Double?
+    var temperatureLow: Double?
 }
 
 struct DailyWeather: Codable{

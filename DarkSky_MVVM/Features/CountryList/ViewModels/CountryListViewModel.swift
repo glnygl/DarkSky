@@ -32,24 +32,20 @@ class CountryListViewModel: BaseViewModelProtocol{
     }
     
     func fetchCountries(){
+        guard let controller = self.controller else { return }
         SVProgressHUD.show()
         API.GetCountries(success: { (model) in
             SVProgressHUD.dismiss()
             self.countryData.accept(model)
         }) { (error) in
             SVProgressHUD.dismiss()
-            self.showAlert(title: "DarkSky", message: "An error occured", buttonTitle: "Ok")
+            controller.showErrorAlert()
         }
     }
     
     func dismiss(){
         guard let controller = controller else { return }
         controller.dismiss(animated: true, completion: nil)
-    }
-    
-    func showAlert(title: String, message: String, buttonTitle: String){
-        guard let controller = controller else { return }
-        controller.showAlert(title: title, message: message, buttonTitle: buttonTitle)
     }
     
 }

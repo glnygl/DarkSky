@@ -23,4 +23,8 @@ extension UIViewController{
         alertController.addAction(UIAlertAction(title: buttonTitles[1], style: .default, handler: rightAction))
         present(alertController, animated: true, completion: nil)
     }
+    
+    func showErrorAlert(){
+        self.showAlert(title: "DarkSky", message: "An error occured", buttonTitle: "Ok")
+    }
 }

@@ -16,5 +16,6 @@ enum ControllerType: String{
 
 enum CellType: String{
     case WeatherListTableCell
+    case WeatherDayListTableCell
     case CountryListTableCell
 }
