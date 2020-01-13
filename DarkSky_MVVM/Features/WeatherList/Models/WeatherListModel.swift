@@ -9,8 +9,8 @@
 import Foundation
 
 struct LocationModel{
-    var lat: Int
-    var long: Int
+    var lat: Double
+    var long: Double
 }
 
 struct WeatherModel: Codable{

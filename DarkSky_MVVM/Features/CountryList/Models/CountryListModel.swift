@@ -8,9 +8,10 @@
 
 import Foundation
 
-struct CountryListModel{
+struct CountryListModel: Codable{
     var name: String?
     var region: String?
+    var alpha2Code: String?
     var capital: String?
-    var latlng: [Int]?
+    var latlng: [Double]?
 }

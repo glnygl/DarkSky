@@ -46,12 +46,12 @@ class Service{
 
 extension Data{
     
-    func decode<T>(modelType: T.Type, success:@escaping (Any)-> Void) where T : Decodable {
+    func decode<T>(modelType: T.Type, success:@escaping (Any)-> Void, failure: @escaping (String) -> Void) where T : Decodable {
         do {
             let model = try JSONDecoder().decode(modelType, from: self)
             success(model)
-        } catch let error {
-            print(error)
+        } catch {
+            failure("error")
         }
     }
 }

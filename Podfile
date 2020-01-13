@@ -6,6 +6,11 @@ target 'DarkSky_MVVM' do
   use_frameworks!
   
   pod 'Alamofire'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxDataSources'
+  pod 'SVProgressHUD'
+  
 
   target 'DarkSky_MVVMTests' do
     inherit! :search_paths

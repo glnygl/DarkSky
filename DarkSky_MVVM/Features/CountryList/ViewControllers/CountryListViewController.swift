@@ -8,11 +8,13 @@
 
 import UIKit
 
-class CountryListViewController: BaseViewController, BaseViewControllerProtocol {
-    typealias viewModelType = CountryListViewModel
-    var viewModel: CountryListViewModel?
+class CountryListViewController: BaseViewController {
+    var viewModel = CountryListViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        viewModel.setViewModel(controller: self) {
+            viewModel.fetchCountries()
+        }
     }
 }

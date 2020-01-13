@@ -11,9 +11,10 @@ import Foundation
 enum ControllerType: String{
     case WeatherListViewController
     case WeatherDetailViewController
+    case CountryListViewController
 }
 
 enum CellType: String{
-    case WeatherListViewController
-    case WeatherDetailViewController
+    case WeatherListTableCell
+    case CountryListTableCell
 }

@@ -22,3 +22,9 @@ enum IconType: String{
     case PartlyCloudyNight = "partly-cloudy-night"
 }
 
+enum Color: String{
+    case DarkBlue
+    case LightBlue
+    case BackgroundBlue
+}
+

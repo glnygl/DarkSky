@@ -11,9 +11,8 @@ import UIKit
 
 protocol BaseViewProtocol {
     associatedtype viewModelType
-    var viewModel: viewModelType? { get set }    
-}
-
-class BaseView {
-
+    associatedtype controllerType
+    var viewModel: viewModelType? { get set }
+    var controller: controllerType? { get set }
+    func setViewModel()
 }

@@ -18,5 +18,22 @@ extension String{
         return nil
     }
     
+    func getColor() -> UIColor?{
+        if let color = UIColor(named: self){
+            return color
+        }
+        return nil
+    }
+
+}
+
+extension Date{
+    
+    func toString(format: String)-> String?{
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = format
+        return dateFormatter.string(from: self)
+    }
     
 }
+
