@@ -8,37 +8,47 @@
 
 import Foundation
 import Alamofire
+import AlamofireImage
+
+typealias ImageHandler = (UIImage?) -> Void
 
 class Service{
   
-    static func AlamofireRequest(urlRequest: URLRequest, success:@escaping (Data) -> Void, failure: @escaping (String) -> Void){
+    static func AlamofireRequest<T: Codable>(urlRequest: URLRequest, completion: @escaping (Result<T>) -> Void){
         Alamofire.request(urlRequest).responseJSON { (response) -> Void in
-            if response.result.isFailure {
-                failure("error")
+            if response.result.isFailure, let error = response.result.error {
+                completion(.failure(error))
             } else {
-                guard let data = response.data else { return failure("error") }
-                success(data)
+                guard let data = response.data, let model: T = data.decode() else{
+                    completion(.failure(ErrorType.ApiError))
+                    return
+                }
+                completion(.success(model))
             }
         }
     }
     
-    static func AlamofireRequestUrl(url: URL, success:@escaping (Data) -> Void, failure: @escaping (String) -> Void){
+    static func AlamofireRequestUrl<T: Codable>(url: URL, completion: @escaping (Result<T>) -> Void){
         Alamofire.request(url).responseJSON { (response) in
-            if response.result.isFailure {
-                failure("error")
+            if response.result.isFailure, let error = response.result.error {
+                completion(.failure(error))
             } else {
-                guard let data = response.data else { return failure("error") }
-                success(data)
+                guard let data = response.data, let model: T = data.decode() else{
+                    completion(.failure(ErrorType.ApiError))
+                    return
+                }
+                completion(.success(model))
             }
         }
     }
     
     static func GetURLRequest(requestType: APIRouter) -> URLRequest?{
-        do {
-            return try requestType.asURLRequest()
-        } catch {
-           print("error")
-           return nil
+        return try? requestType.asURLRequest()
+    }
+    
+    static func AlamofireImageRequest(url: String, completion: @escaping ImageHandler){
+        Alamofire.request(url).responseImage { response in
+            completion(response.result.value)
         }
     }
     
@@ -46,13 +56,8 @@ class Service{
 
 extension Data{
     
-    func decode<T>(modelType: T.Type, success:@escaping (Any)-> Void, failure: @escaping (String) -> Void) where T : Decodable {
-        do {
-            let model = try JSONDecoder().decode(modelType, from: self)
-            success(model)
-        } catch {
-            failure("error")
-        }
+    func decode<T: Codable>() -> T? {
+        return try? JSONDecoder().decode(T.self, from: self)
     }
 }
 

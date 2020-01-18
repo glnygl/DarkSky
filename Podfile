@@ -6,6 +6,7 @@ target 'DarkSky_MVVM' do
   use_frameworks!
   
   pod 'Alamofire'
+  pod 'AlamofireImage'
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'RxDataSources'

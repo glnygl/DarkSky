@@ -23,7 +23,7 @@
 		2987712823CA1FE000FF1D83 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987712723CA1FE000FF1D83 /* Service.swift */; };
 		2987712A23CA2A3000FF1D83 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987712923CA2A3000FF1D83 /* API.swift */; };
 		2987712C23CA2C2600FF1D83 /* WeatherListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987712B23CA2C2600FF1D83 /* WeatherListModel.swift */; };
-		2987712E23CA2CF500FF1D83 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987712D23CA2CF500FF1D83 /* Constants.swift */; };
+		2987712E23CA2CF500FF1D83 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987712D23CA2CF500FF1D83 /* Enums.swift */; };
 		2987713023CA31CB00FF1D83 /* WeatherListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987712F23CA31CB00FF1D83 /* WeatherListView.swift */; };
 		2987713223CA31DF00FF1D83 /* WeatherListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2987713123CA31DF00FF1D83 /* WeatherListView.xib */; };
 		2987713423CA32A500FF1D83 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987713323CA32A500FF1D83 /* UIView+Extension.swift */; };
@@ -92,7 +92,7 @@
 		2987712723CA1FE000FF1D83 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		2987712923CA2A3000FF1D83 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		2987712B23CA2C2600FF1D83 /* WeatherListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListModel.swift; sourceTree = "<group>"; };
-		2987712D23CA2CF500FF1D83 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2987712D23CA2CF500FF1D83 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		2987712F23CA31CB00FF1D83 /* WeatherListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListView.swift; sourceTree = "<group>"; };
 		2987713123CA31DF00FF1D83 /* WeatherListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherListView.xib; sourceTree = "<group>"; };
 		2987713323CA32A500FF1D83 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
@@ -351,7 +351,7 @@
 			isa = PBXGroup;
 			children = (
 				2987712023CA116C00FF1D83 /* Types.swift */,
-				2987712D23CA2CF500FF1D83 /* Constants.swift */,
+				2987712D23CA2CF500FF1D83 /* Enums.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -705,7 +705,7 @@
 				2922E06323CA0B790091C56E /* BaseViewController.swift in Sources */,
 				2987713423CA32A500FF1D83 /* UIView+Extension.swift in Sources */,
 				2987E62E23CD09A400171E20 /* WeatherDayListTableCell.swift in Sources */,
-				2987712E23CA2CF500FF1D83 /* Constants.swift in Sources */,
+				2987712E23CA2CF500FF1D83 /* Enums.swift in Sources */,
 				29E905FB23CB7510007B3701 /* UITableView+Extensions.swift in Sources */,
 				29FCD14923CA84F800E510A2 /* BaseViewProtocol.swift in Sources */,
 				2987712823CA1FE000FF1D83 /* Service.swift in Sources */,

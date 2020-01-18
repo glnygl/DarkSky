@@ -35,11 +35,14 @@ class WeatherListViewModel: BaseViewModelProtocol{
     
     func fetchWeather(location: LocationModel){
         guard let controller = controller else { return }
-        API.GetWeather(location: location, success: { (model) in
-            self.weatherData.accept([model])
-            controller.dismiss(animated: true, completion: nil)
-        }) { (error) in
-            controller.showErrorAlert()
+        API.GetWeather(location: location) { [weak self] (result) in
+            switch result {
+            case .success(let model):
+                self?.weatherData.accept([model])
+                controller.dismiss(animated: true, completion: nil)
+            case .failure( _):
+                controller.showErrorAlert()
+            }
         }
     }
     

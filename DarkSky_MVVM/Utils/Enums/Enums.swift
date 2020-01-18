@@ -1,5 +1,5 @@
 //
-//  Constants.swift
+//  Enums.swift
 //  DarkSky_MVVM
 //
 //  Created by Gülenay Gül on 11.01.2020.
@@ -26,5 +26,16 @@ enum Color: String{
     case DarkBlue
     case LightBlue
     case BackgroundBlue
+}
+
+enum ErrorType: Error{
+    case ApiError
+    
+    var localizedDescription: String {
+        switch self {
+        case .ApiError:
+            return "API Error"
+        }
+    }
 }
 

@@ -1,5 +1,7 @@
 PODS:
   - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
   - Differentiator (4.0.1)
   - RxCocoa (5.0.1):
     - RxRelay (~> 5)
@@ -15,6 +17,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - AlamofireImage
   - RxCocoa
   - RxDataSources
   - RxSwift
@@ -23,6 +26,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - AlamofireImage
     - Differentiator
     - RxCocoa
     - RxDataSources
@@ -32,6 +36,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
   RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
@@ -39,6 +44,6 @@ SPEC CHECKSUMS:
   RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: bd8da130bea3367e4d6da2fe42cf8a3064ed69e2
+PODFILE CHECKSUM: 78aaec9a5b86b53b800b5a173a3f88596ac0112b
 
 COCOAPODS: 1.8.4
