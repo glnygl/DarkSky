@@ -46,6 +46,7 @@
 		29E9060023CBA465007B3701 /* CountryListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E905FE23CBA465007B3701 /* CountryListTableCell.swift */; };
 		29E9060123CBA465007B3701 /* CountryListTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E905FF23CBA465007B3701 /* CountryListTableCell.xib */; };
 		29E9060423CBB5DD007B3701 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E9060323CBB5DD007B3701 /* UIViewController+Extensions.swift */; };
+		29FA533923D3A58C009AB36D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FA533823D3A58C009AB36D /* UIColor+Extension.swift */; };
 		29FCD14723CA7FCA00E510A2 /* BaseViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FCD14623CA7FCA00E510A2 /* BaseViewModelProtocol.swift */; };
 		29FCD14923CA84F800E510A2 /* BaseViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FCD14823CA84F800E510A2 /* BaseViewProtocol.swift */; };
 		8248256B2E5D0CC8B41C4C9E /* Pods_DarkSky_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51D66306E61E7AA0E462A6E /* Pods_DarkSky_MVVM.framework */; };
@@ -115,6 +116,7 @@
 		29E905FE23CBA465007B3701 /* CountryListTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListTableCell.swift; sourceTree = "<group>"; };
 		29E905FF23CBA465007B3701 /* CountryListTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryListTableCell.xib; sourceTree = "<group>"; };
 		29E9060323CBB5DD007B3701 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		29FA533823D3A58C009AB36D /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		29FCD14623CA7FCA00E510A2 /* BaseViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModelProtocol.swift; sourceTree = "<group>"; };
 		29FCD14823CA84F800E510A2 /* BaseViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewProtocol.swift; sourceTree = "<group>"; };
 		33F509155313488A134D2080 /* Pods-DarkSky_MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSky_MVVM.release.xcconfig"; path = "Target Support Files/Pods-DarkSky_MVVM/Pods-DarkSky_MVVM.release.xcconfig"; sourceTree = "<group>"; };
@@ -334,6 +336,7 @@
 				29E9060323CBB5DD007B3701 /* UIViewController+Extensions.swift */,
 				29E905FA23CB7510007B3701 /* UITableView+Extensions.swift */,
 				29E905FC23CB754D007B3701 /* UICollectionView+Extensions.swift */,
+				29FA533823D3A58C009AB36D /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -721,6 +724,7 @@
 				29E70F2123CA5799006DB01E /* WeatherListViewModel.swift in Sources */,
 				29E905EA23CB4C9B007B3701 /* CountryListViewModel.swift in Sources */,
 				2987712123CA116C00FF1D83 /* Types.swift in Sources */,
+				29FA533923D3A58C009AB36D /* UIColor+Extension.swift in Sources */,
 				2922E06123CA0B790091C56E /* SceneDelegate.swift in Sources */,
 				29E9060023CBA465007B3701 /* CountryListTableCell.swift in Sources */,
 				29E905ED23CB4CB6007B3701 /* CountryListViewController.swift in Sources */,
