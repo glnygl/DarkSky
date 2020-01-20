@@ -46,7 +46,7 @@ class WeatherListTableCell: UITableViewCell {
         }
         
         if let icon = model.currently?.icon{
-            weatherIcon.image = icon.getIcon()
+            weatherIcon.image = UIImage(assetName: icon)
             weatherTypeLabel.text = getWeatherType(type: icon)
         }
         
