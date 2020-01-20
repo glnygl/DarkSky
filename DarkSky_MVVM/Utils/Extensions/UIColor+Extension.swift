@@ -54,5 +54,10 @@ extension UIColor {
         }
     }
     
+    class var LightBlueColorLiteral: UIColor {
+        return #colorLiteral(red: 0.3843137255, green: 0.5137254902, blue: 0.5882352941, alpha: 1)
+        // Color Literal 
+    }
+    
 }
 
